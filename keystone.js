@@ -33,7 +33,6 @@ keystone.init({
 	'auth': true,
 	'user model': 'User',
 	'cookie secret': 'o9}#e0{8JCiy,gb^6PF49miMa.M(|*eBSPnl-5"DnzT0=:^W@ZqRgFJ34%}0<d~T'
-
 });
 
 // Load your project's Models
@@ -65,6 +64,8 @@ keystone.set('nav', {
   'enquiries': 'enquiries',
   'users': 'users'
 });
+
+keystone.set("port", 80);
 
 // Start Keystone to connect to your database and initialise the web server
 
